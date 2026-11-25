@@ -1,0 +1,6 @@
+{
+  "layered-image": {
+    "background": "$media:photosort_background",
+    "foreground": "$media:photosort_foreground"
+  }
+}

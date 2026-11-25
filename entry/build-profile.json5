@@ -1,0 +1,29 @@
+{
+  "apiType": "stageMode",
+  "buildOption": {
+    "arkOptions": {
+      "runtimeOnly": {
+        "packages": ["libphotosort_ort.so"]
+      }
+    },
+    "externalNativeOptions": {
+      "path": "./src/main/cpp/CMakeLists.txt",
+      "abiFilters": ["arm64-v8a"]
+    }
+  },
+  "buildOptionSet": [
+    {
+      "name": "publication",
+      "resOptions": {
+        "ignoreResourcePattern": ["**/photosort_ocr_test/**"]
+      }
+    }
+  ],
+  "buildModeBinder": [
+    {
+      "buildModeName": "release",
+      "mappings": [{ "targetName": "default", "buildOptionName": "publication" }]
+    }
+  ],
+  "targets": [{ "name": "default" }]
+}

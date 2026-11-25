@@ -1,0 +1,16 @@
+.hvigor/
+.idea/
+.sign/
+oh_modules/
+**/build/
+local.properties
+*.p12
+*.p7b
+*.cer
+*.csr
+
+*.pem
+*.hap
+*.app
+/entry/src/main/resources/rawfile/photosort_model/mobilenetv2.ms
+/entry/src/main/resources/rawfile/photosort_ocr_test/

@@ -1,0 +1,19 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    { "name": "canvas", "value": "#F1F6F5" },
+    { "name": "panel", "value": "#FFFFFF" },
+    { "name": "summary", "value": "#DBEEE8" },
+    { "name": "field", "value": "#F5FAF8" },
+    { "name": "outline", "value": "#CBDFD7" },
+    { "name": "main_text", "value": "#182D2C" },
+    { "name": "secondary_text", "value": "#45635E" },
+    { "name": "accent", "value": "#00665B" },
+    { "name": "on_accent", "value": "#FFFFFF" },
+    { "name": "danger_text", "value": "#9D3030" },
+    { "name": "danger_surface", "value": "#FCE4E3" }
+  ]
+}

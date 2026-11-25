@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "value": "照片归类",
+      "name": "EntryAbility_label"
+    },
+    {
+      "value": "将你选中的照片归档到所选相册，或在你确认删除后将原照片移到最近删除。",
+      "name": "permission_album_write"
+    },
+    {
+      "name": "permission_album_read",
+      "value": "显示已有相册，并读取你选中的照片，以便归档到指定相册。"
+    }
+  ]
+}
